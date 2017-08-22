@@ -8,3 +8,8 @@
 * Evaluate - translate one expression to the next
 * Function
 * REPL - interactive program that lets you type code and see results
+
+## Leiningen Build Tool
+loaded on my system
+* to run - lein repl
+* to exit ctrl d
