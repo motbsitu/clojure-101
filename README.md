@@ -1,6 +1,6 @@
-#Clojure Exercises - Lynda Learning Clojure
+# Clojure Exercises - Lynda Learning Clojure
 
-##Terms
+## Terms
 * Simple - primary goal of Clojure
 * Value - anything that does not change over time
 * Compound - data that is made of other data
