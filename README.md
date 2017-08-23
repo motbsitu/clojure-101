@@ -14,13 +14,13 @@ loaded on my system
 * to run - lein repl
 * to exit ctrl d
 
-##Structure
+## Structure
 * Code is lists of (verb object object ...) Action, then argument
 * Called s-expressions or expressions
 * (function-name arg1 arg2)
 * math - operator comes before numbers it works on
 
-##Numbers
+## Numbers
 * longs  0 -1 428
 * doubles  .00001
 * ratios    3/2  22/7
@@ -28,38 +28,38 @@ loaded on my system
 * BigDecimals   .00000000001M
 Numerics are safe by default
 
-##Letters
+## Letters
 * Characters \a \space
 * Strings "string"
 * Regular expression  # "cat"
 
-##Symbols
+## Symbols
 * Current namespace.
 * Valid names: not start with a number, all the letters and numbers, as well as * + ! - _ ' ?
 
-##Components of Clojure Language
-###if
+## Components of Clojure Language
+### if
 (if condition
     value-if-true
     value-if-false)
 
-###do
+### do
 If this is true, do four things...
 (do
     value-to-ignore
     value-to-ignore
     value-to-return)
 
-###def
+### def
 Define vars in namespace
   (def symbol value)
 
-###Looping
+### Looping
 (loop [name initial-value]
     code
     (recur new-value-for-name))
 
-###Exceptions
+### Exceptions
 (try
     normal-return-value
     (catch Exception name
@@ -67,7 +67,7 @@ Define vars in namespace
     (finally
       code-to-always-run)
 
-###Java Method Invocation
+### Java Method Invocation
 (. Object methodName)
 
-###read, eval
+### read, eval
