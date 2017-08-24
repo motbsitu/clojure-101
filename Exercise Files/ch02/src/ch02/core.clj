@@ -4,6 +4,8 @@
 (def a 2)
 (def b (+ 40 a))
 
+42
+
 (declare get-y)
 (defn get-x []
   (+ (get-y) 4))
@@ -14,7 +16,7 @@
   (if are-you-sure?
     (println "WWooooosh!")
     (println "zzzzzzzzz")))
-#_(fire-the-MISSILES!!! true)
+(fire-the-MISSILES!!! true)
 
 
 

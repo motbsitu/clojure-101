@@ -14,6 +14,13 @@ loaded on my system
 * to run - lein repl
 * to exit ctrl d
 
+* REPL - Read (look at code) Evaluate (run) Print Loop
+* Clojure is Compiled Lanugage
+ - compiler runs when you hit enter
+ - Unit of completion is the form
+ - One pass - functions must be defined before called
+
+
 ## Structure
 * Code is lists of (verb object object ...) Action, then argument
 * Called s-expressions or expressions
