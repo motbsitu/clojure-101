@@ -78,3 +78,16 @@ Define vars in namespace
 (. Object methodName)
 
 ### read, eval
+
+### Evaluation & values
+- everything is a return statement, no forms that don't return something
+- don't need return, or break
+- Have to return something in if statment else
+- everything turns values into values
+- Pure functions
+
+* Value
+- values are things that don't change over time
+- metadata - values of values
+
+What have I gotten myself into. Can't figure out using REPL. Going to poke my eyes out. This is not happening tonight.
