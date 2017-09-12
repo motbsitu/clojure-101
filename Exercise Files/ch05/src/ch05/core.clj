@@ -9,7 +9,7 @@
       (println "Adding" x "to the seq")
       (cons x (lazy-loopy (dec x))))))
 (def numbers (lazy-loopy 5))
-
+; testing
 
 (map #(do (println "generating answer #" %) %)
      (range 10))
